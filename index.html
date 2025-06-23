@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANEMONE</title>
+    <meta name="description" content="Book&Cafe ANEMONEのサイト">
+    <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Dancing+Script:wght@400..700&family=Lobster&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awsome-->
+
+    <script src="https://kit.fontawesome.com/9e096e30be.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header id="header">
+        <h1 class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Book&Cafe ANEMONEのサイト">
+            </a>
+        </h1>
+        <div class="hamberger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav class="main-nav">
+            <ul class="navi">
+                <li><a href="#concept">concept</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#access">Access</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="main-visual">
+        <div class="main-visual__item">
+        <img src="images/main_visual.jpg" alt="メインビジュアル" >
+        </div>
+    </section>
+    <section id="concept" class="wrapper">
+        <h1>concept</h1>
+        <p>BOOK&CAFE ANEMONEは「本を読みながらお茶を飲む」という最高の贅沢を提供したいという理念のもと立ち上げました。
+            店内には5000冊の本があり、それに彩りを与えるカフェメニューも多数用意しております。休日の際にはぜひお立ち寄りください。</p>
+    </section>
+    <section id="menu" class="wrapper">
+        <h1>Menu</h1>
+     <div class="menu">
+        <div class="menu__item">
+            <img src="images/cheese.jpg" alt="" class="menu__item-image" width="150px" height="150px">
+            <h2>チーズタルト</h2>
+            <p>クリームを添えて提供させていただいております</p>
+        </div>
+        <div class="menu__item">
+            <img src="images/short.jpg" alt="" class="menu__item-image" width="150px" height="150px">
+            <h2>ショートケーキ</h2>
+            <p>ふわふわのスポンジ生地に生クリームと産地直送のイチゴを組み合わせた当店オリジナルです。</p>
+        </div>
+        <div class="menu__item">
+            <img src="images/coffee.jpg" alt="" class="menu__item-image" width="150px" height="150px">
+            <h2>ブレンドコーヒー</h2>
+            <p>厳選されたコーヒー豆で淹れたコクと甘みを兼ね備えた味です。</p>
+        </div>
+        <div class="menu__item">
+            <img src="images/tea.jpg" alt="" class="menu__item-image" width="150px" height="150px">
+            <h2>紅茶</h2>
+            <p>厳選された茶葉で淹れたすっきりとした味です。</p>
+        </div>
+    </div>
+    </section>
+    <section id="news" class="wrapper">
+        <h1>News</h1>
+        <dl>
+            <dt>2月25日</dt>
+            <dd>春の特選メニューを始めます</dd>
+            <dt>12月1日</dt>
+            <dd>12月15日にライブイベントを開催いたします。</dd>
+            <dt>9月20日</dt>
+            <dd>10月より秋の特選メニューを始めます。</dd>
+        </dl>
+    </section>
+    <section id="access" class="wrapper">
+        <h1>Access</h1>
+        <p>〒189-0012　東京都東村山市萩山町1-10-26<br>
+        TEL:042-398-0859<br>
+        小平駅より徒歩６分</p>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3238.50656658158!2d139.48046387496856!3d35.73835202683551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018e6f49132a1a7%3A0xf89b6bb52f17f9b9!2z44CSMTg5LTAwMTIg5p2x5Lqs6YO95p2x5p2R5bGx5biC6JCp5bGx55S677yR5LiB55uu77yR77yQ4oiS77yS77yWIOOCs-ODvOODneeOieawtA!5e0!3m2!1sja!2sjp!4v1739076914203!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <section id="contact" class="wrapper">
+        <h1>Contact</h1>
+        <form action="#">
+            <div>
+            <label for="name">名前</label>
+            <input type="text" id="name" name="your-name">
+            </div>
+            <div>
+            <label for="email">メールアドレス</label>
+            <input type="text" id="email" name="your-email">
+            </div>
+            <div>
+            <label for="message">メッセージ</label>
+            <textarea name="your-message" id="message"></textarea>
+            </div>
+            <div class="submit">
+            <input type="submit" class="button" value="送信">
+            </div>
+        </form>
+    </section>
+
+    <footer id="footer">
+        <h1 class="logo01"><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="#concept">concept</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#access">Access</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="sns-links">
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            </ul>
+            </nav>
+           
+        
+    </footer>
+    <p>2025 ©ANEMONE </p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
