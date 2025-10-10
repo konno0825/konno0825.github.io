@@ -170,7 +170,7 @@ MainVisual
 #menu .menu .menu__item h2 {
     text-align: center;
     padding: 15px 0 0 15px;
-    font-size: 1.25rem;
+    font-size: 1.0rem;
 }
 #menu .menu .menu__item p {
     text-align: left;
@@ -423,6 +423,7 @@ textarea {
     font-size: 40px;
 }
 }
+
 
 
 
