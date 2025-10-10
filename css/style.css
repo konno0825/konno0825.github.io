@@ -163,7 +163,8 @@ MainVisual
     margin-bottom: 30px;
 }
 #menu .menu .menu__item {
-    width: 50%;
+    width: 40%;
+    margin: 0 5% 5% 0;
 }
 #menu .menu .menu__item .menu__item-image {
     border-radius: 50%;
@@ -426,3 +427,4 @@ textarea {
     font-size: 40px;
 }
 }
+
