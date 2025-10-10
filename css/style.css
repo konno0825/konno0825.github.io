@@ -21,9 +21,6 @@ a:hover {
 img {
     max-width: 100%;
 }
-/*
-中身のコンテンツ幅を設定
-*/
 
 .wrapper {
     max-width: 1200px;
@@ -163,7 +160,7 @@ MainVisual
     margin-bottom: 30px;
 }
 #menu .menu .menu__item {
-    width: 40%;
+    width: 45%;
     margin: 0 5% 5% 0;
 }
 #menu .menu .menu__item .menu__item-image {
@@ -427,4 +424,5 @@ textarea {
     font-size: 40px;
 }
 }
+
 
