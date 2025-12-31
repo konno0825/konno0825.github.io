@@ -21,11 +21,14 @@ a:hover {
 img {
     max-width: 100%;
 }
+/*
+中身のコンテンツ幅を設定
+*/
 
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 5%;
+    padding: 0 10%;
 }
 /*HEADER
 ==================================================*/
@@ -43,9 +46,8 @@ img {
     z-index: 10;
 }
 #header .logo {
-    max-width: 150px;
-    margin: 0 auto;
-    margin-top: 10px;
+    width: 120px;
+    margin: 10px auto;
 }
 #header .hamberger {
     width: 50px;
@@ -115,12 +117,18 @@ img {
     font-weight: 400;
     font-style: normal;
     color: #f4a460;
+    text-align: center;
 }
+
 /*
 MainVisual
 =================================================*/
 #main-visual {
-    max-width: 100%;
+    width: 100%;
+}
+#main-visual img {
+    width: 100%;
+    height: auto;
 }
 /*Concept
 ==================================================*/
@@ -160,17 +168,24 @@ MainVisual
     margin-bottom: 30px;
 }
 #menu .menu .menu__item {
-    width: 50%;
+    width: 45%;
+    margin: 0 5% 5% 0;
 }
+#menu .menu .menu__item:nth-child(2n) {
+    margin-right: 0;
+}
+
 #menu .menu .menu__item .menu__item-image {
     border-radius: 50%;
     overflow: hidden;
-    margin-left: 30px
+    margin-left: 30px;
+    width: 150px;
+    height: 150px;
 }
 #menu .menu .menu__item h2 {
     text-align: center;
     padding: 15px 0 0 15px;
-    font-size: 1.0rem;
+    font-size: 1.25rem;
 }
 #menu .menu .menu__item p {
     text-align: left;
@@ -261,6 +276,7 @@ textarea {
     width: 100%;
     max-width: 480px;
     height: 6rem;
+    outline: none;
 }
 #contact .submit {
     text-align: center;
@@ -335,7 +351,7 @@ p {
     }
     #header .main-nav {
         position: static;
-        width: 40%;
+        width: 60%;
         height: 60px;
         }
     #header .main-nav .navi {
@@ -348,10 +364,9 @@ p {
     }
   /*MainVisual-Large
   =================================================================*/
-  #main-visual .main-visual__item img {
+  #main-visual img {
         width: 100%;
-        max-width: 1920px;
-        height: 600px;
+        height: auto;
         object-fit: cover;
   }
   /*Concept-Large
@@ -370,10 +385,14 @@ p {
         flex-wrap: nowrap;
   }
   #menu .menu .menu__item {
-        width: 25%;
+        width: 22%;
+        padding: 0 2% 2% 0;
   }
-  #menu .menu .menu__item .menu__item-image {
-        margin-left: 60px;
+  #menu .menu .menu__item:nth-child(1) {
+        margin-left: 0;
+  }
+  #menu .menu .menu__item:nth-child(4) {
+        margin-right: 0;
   }
   #menu .menu .menu__item p {
         text-align: center;
@@ -423,11 +442,3 @@ textarea {
     font-size: 40px;
 }
 }
-
-
-
-
-
-
-
-
