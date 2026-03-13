@@ -168,12 +168,12 @@ MainVisual
     margin-bottom: 30px;
 }
 #menu .menu .menu__item {
-    width: 40%;
-    margin: 0 10% 10% 0;
+    width: 45%;
+    margin: 0 5% 5% 0;
     margin-left: 0;
 }
 #menu .menu .menu__item:nth-child(2n) {
-    margin-right: 0;
+    margin-right: 5%;
 }
 
 #menu .menu .menu__item .menu__item-image {
@@ -443,6 +443,7 @@ textarea {
     font-size: 40px;
 }
 }
+
 
 
 
