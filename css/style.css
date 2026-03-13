@@ -168,7 +168,7 @@ MainVisual
     margin-bottom: 30px;
 }
 #menu .menu .menu__item {
-    width: 45%;
+    width: 43%;
     margin: 0 5% 5% 0;
 }
 #menu .menu .menu__item:nth-child(2n) {
@@ -442,3 +442,4 @@ textarea {
     font-size: 40px;
 }
 }
+
