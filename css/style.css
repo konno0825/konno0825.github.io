@@ -172,7 +172,7 @@ MainVisual
     margin: 0 5% 0 0;
 }
 #menu .menu .menu__item:nth-child(2n) {
-    margin-right: 0;
+    margin-right: 5%;
 }
 
 #menu .menu .menu__item .menu__item-image {
@@ -442,6 +442,7 @@ textarea {
     font-size: 40px;
 }
 }
+
 
 
 
