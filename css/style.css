@@ -11,6 +11,7 @@ body {
     line-height: 1.7;
     font-size: 0.875rem;
     color: #000;
+    padding-top: 60px;
 }
 a {
     text-decoration: none;
@@ -179,7 +180,8 @@ MainVisual
 #menu .menu .menu__item .menu__item-image {
     border-radius: 50%;
     overflow: hidden;
-    margin-left: 30px;
+    display: block;
+    margin: 0 auto;
     width: 150px;
     height: 150px;
 }
@@ -400,7 +402,8 @@ p {
   }
   /*News-Large
   ==================================================================*/
-  #news dl dt,dd {
+  #news dl dt,
+  #news dl dd {
         text-align: center;
   }
 /*Access-Large
@@ -443,6 +446,7 @@ textarea {
     font-size: 40px;
 }
 }
+
 
 
 
